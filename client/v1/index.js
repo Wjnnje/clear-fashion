@@ -35,7 +35,7 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // I can find on these e-shops
 // 2. Log the variable
 const cheapest_tshirt='https://www.faguo-store.com/fr/vetements/7606-arcy-t-shirt-en-coton-recycle-kaki.html';
-console.log(cheapest_tshirt)
+console.log(cheapest_tshirt);
 
 /**
  * 👕
@@ -50,28 +50,55 @@ console.log(cheapest_tshirt)
 // 1. Create a variable and assign it the number of products
 // 2. Log the variable
 var nb_products=marketplace.length;
-console.log(marketplace)
+console.log(nb_products);
 
 // 🎯 TODO 3: Brands name
 // 1. Create a variable and assign it the list of brands name only
 // 2. Log the variable
 // 3. Log how many brands we have
-var brand_names=marketplace.keys
-console.log(brand_names)
+var brand_names=[];
+for (let i=0; i<nb_products; i++){
+  if(!brand_names.includes(marketplace[i].brand)){
+    brand_names.push(marketplace[i].brand);
+  }
+}
+console.log(brand_names);
 
 // 🎯 TODO 4: Sort by price
 // 1. Create a function to sort the marketplace products by price
 // 2. Create a variable and assign it the list of products by price from lowest to highest
 // 3. Log the variable
+var market_keys=marketplace[0].keys
+
+var marketprice=marketplace;
+marketprice.sort((a,b)=>{
+  if (a.price>b.price) return 1;
+  if (a.price<b.price) return -1;
+  return 0;
+});
+console.log(marketprice);
 
 // 🎯 TODO 5: Sort by date
 // 1. Create a function to sort the marketplace objects by products date
 // 2. Create a variable and assign it the list of products by date from recent to old
 // 3. Log the variable
+var marketdate=marketplace;
+marketdate.sort((a,b)=>{
+  if (a.released<b.released) return 1;
+  if (a.released>b.released) return -1;
+  return 0;
+});
+console.log(marketdate);
 
 // 🎯 TODO 6: Filter a specific price range
 // 1. Filter the list of products between 50€ and 100€
 // 2. Log the list
+
+var market_filt=[];
+marketplace.forEach(element => {
+  if (element.price<=100 && element.price>=50) market_filt.push(element);
+});
+console.log(market_filt)
 
 // 🎯 TODO 7: Average price
 // 1. Determine the average price of the marketplace
