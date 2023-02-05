@@ -98,11 +98,17 @@ var market_filt=[];
 marketplace.forEach(element => {
   if (element.price<=100 && element.price>=50) market_filt.push(element);
 });
-console.log(market_filt)
+console.log(market_filt);
 
 // 🎯 TODO 7: Average price
 // 1. Determine the average price of the marketplace
 // 2. Log the average
+var avg_price=0;
+marketplace.forEach(element => {
+  avg_price+=element.price;
+});
+avg_price=avg_price/nb_products;
+console.log(avg_price);
 
 /**
  * 🏎
@@ -125,15 +131,43 @@ console.log(market_filt)
 // };
 //
 // 2. Log the variable
-// 3. Log the number of products by brands
+// 3. Log the number of products by 
+
+var brands={};
+var el_brand;
+marketplace.forEach(element => {
+  el_brand=element.brand;
+  if (!Object.keys(brands).includes(el_brand)) brands[el_brand]=[];
+  brands[el_brand].push(element);
+});
+console.log(brands);
 
 // 🎯 TODO 9: Sort by price for each brand
 // 1. For each brand, sort the products by price, from highest to lowest
 // 2. Log the sort
 
+var brands_price=brands;
+Object.keys(brands_price).forEach(element => {
+  brands_price[element].sort((a,b)=>{
+    if(a.price>b.price) return 1;
+    if(a.price<b.price) return -1;
+    return 0;
+  });
+});
+console.log(brands_price);
+
 // 🎯 TODO 10: Sort by date for each brand
 // 1. For each brand, sort the products by date, from old to recent
 // 2. Log the sort
+var brands_date=brands;
+Object.keys(brands_date).forEach(element => {
+  brands_date[element].sort((a,b)=>{
+    if(a.price<b.price) return 1;
+    if(a.price>b.price) return -1;
+    return 0;
+  });
+});
+console.log(brands_date);
 
 /**
  * 💶
