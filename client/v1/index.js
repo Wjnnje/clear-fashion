@@ -70,7 +70,7 @@ console.log(brand_names);
 // 3. Log the variable
 var market_keys=marketplace[0].keys
 
-var marketprice=marketplace;
+var marketprice=Object.create(marketplace);
 marketprice.sort((a,b)=>{
   if (a.price>b.price) return 1;
   if (a.price<b.price) return -1;
@@ -82,7 +82,7 @@ console.log(marketprice);
 // 1. Create a function to sort the marketplace objects by products date
 // 2. Create a variable and assign it the list of products by date from recent to old
 // 3. Log the variable
-var marketdate=marketplace;
+var marketdate=Object.create(marketplace);
 marketdate.sort((a,b)=>{
   if (a.released<b.released) return 1;
   if (a.released>b.released) return -1;
@@ -146,7 +146,7 @@ console.log(brands);
 // 1. For each brand, sort the products by price, from highest to lowest
 // 2. Log the sort
 
-var brands_price=brands;
+var brands_price=Object.assign({}, brands);;
 Object.keys(brands_price).forEach(element => {
   brands_price[element].sort((a,b)=>{
     if(a.price>b.price) return 1;
@@ -159,7 +159,7 @@ console.log(brands_price);
 // 🎯 TODO 10: Sort by date for each brand
 // 1. For each brand, sort the products by date, from old to recent
 // 2. Log the sort
-var brands_date=brands;
+var brands_date=Object.assign({}, brands);;
 Object.keys(brands_date).forEach(element => {
   brands_date[element].sort((a,b)=>{
     if(a.price<b.price) return 1;
@@ -375,21 +375,47 @@ const COTELE_PARIS = [
   }
 ];
 
+
 // 🎯 TODO 1: New released products
 // // 1. Log if we have new products only (true or false)
 // // A new product is a product `released` less than 2 weeks.
+var new_products=[];
+
+var w2_date=new Date();
+w2_date.setDate(w2_date.getDate() - 14);
+
+COTELE_PARIS.forEach(element => {
+  if (new Date(element.released)>w2_date) new_products.push(element);
+});
+console.log(new_products);
 
 // 🎯 TODO 2: Reasonable price
 // // 1. Log if coteleparis is a reasonable price shop (true or false)
 // // A reasonable price if all the products are less than 100€
+var reasonable_price=true;
+
+COTELE_PARIS.forEach(element => {
+  if (element.price>100) reasonable_price=false;
+});
+console.log(reasonable_price);
 
 // 🎯 TODO 3: Find a specific product
 // 1. Find the product with the uuid `2b9a47e3-ed73-52f6-8b91-379e9c8e526c`
 // 2. Log the product
+var product_uuid;
+
+COTELE_PARIS.forEach(element => {
+  if (element.uuid==`2b9a47e3-ed73-52f6-8b91-379e9c8e526c`) product_uuid=element;
+});
+console.log(product_uuid);
 
 // 🎯 TODO 4: Delete a specific product
 // 1. Delete the product with the uuid `2b9a47e3-ed73-52f6-8b91-379e9c8e526c`
 // 2. Log the new list of product
+for (let i=0;i<COTELE_PARIS.length;i++){
+  if (COTELE_PARIS[i].uuid==`2b9a47e3-ed73-52f6-8b91-379e9c8e526c`) COTELE_PARIS.splice(i,1);
+}
+console.log(COTELE_PARIS);
 
 // 🎯 TODO 5: Save the favorite product
 // We declare and assign a variable called `blueJacket`
@@ -412,7 +438,10 @@ let jacket = blueJacket;
 jacket.favorite = true;
 
 // 1. Log `blueJacket` and `jacket` variables
+console.log(blueJacket);
+console.log(jacket);
 // 2. What do you notice?
+// Favorite has been created in both variables, not just jacket
 
 // we make a new assignment again
 blueJacket = {
@@ -426,6 +455,10 @@ blueJacket = {
   'uuid': '49c4e2d8-0cb4-5867-a5b9-23bd7168149f',
   'released': '2022-08-15'
 };
+jacket=Object.assign({}, blueJacket);
+jacket.favorite = true;
+console.log(blueJacket);
+console.log(jacket);
 
 // 3. Update `jacket` property with `favorite` to true WITHOUT changing blueJacket properties
 
@@ -438,3 +471,5 @@ blueJacket = {
 // 🎯 LAST TODO: Save in localStorage
 // 1. Save MY_FAVORITE_BRANDS in the localStorage
 // 2. log the localStorage
+const localStorage=MY_FAVORITE_BRANDS;
+console.log(localStorage);
