@@ -118,7 +118,7 @@ const fetchAll = async (page = 1, size = 12) => {
   console.log(allProducts)
   return allProducts
 };
-
+/*
 function renderAllProducts() {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
@@ -140,7 +140,13 @@ function renderAllProducts() {
   sectionProducts.innerHTML = '<h2>Products</h2>';
   sectionProducts.appendChild(fragment);
 
-};
+};*/
+
+/**
+ * Render list of products
+ * @param  {Array} products
+ */
+const testProducts = test => {console.log(products);};
 
 /**
  * Render list of products
@@ -149,7 +155,6 @@ function renderAllProducts() {
 const renderProducts = products => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
-  
   const template = products
     .map(product => {
       return `
@@ -166,16 +171,15 @@ const renderProducts = products => {
   fragment.appendChild(div);
   sectionProducts.innerHTML = '<h2>Products</h2>';
   sectionProducts.appendChild(fragment);
-
+  renderInfos(products);
 };
 
 
 function renderInfos (allProducts) {
-  
 //GET BRANDS (Feature2) / RECENT (Feature)
   for (let i=0;i<allProducts.length;i++){
     if (!Object.keys(distinctBrands).includes(allProducts[i].brand)) distinctBrands.push(allProducts[i].brand);
-    if (new Date(pallProducts[i].released)>w2_date) recentProducts.push(allProducts[i]);
+    if (new Date(allProducts[i].released)>w2_date) recentProducts.push(allProducts[i]);
     if (allProducts[i].price>100) reasonablePrice[allProducts[i].brand]=false;
   }
   const nbBrands=distinctBrands.length;
@@ -184,32 +188,32 @@ function renderInfos (allProducts) {
   spanNewProducts.innerHTML = nbNew;
   
   //GET PVALUES (Feature 10)
-  var brands_price=Object.assign([], products);;
+  var brands_price=Object.create(allProducts);
   brands_price.sort((a,b)=>{
     if(a.price>b.price) return 1;
     if(a.price<b.price) return -1;
       return 0;
   });
-  console.log(brands_price)
-  console.log(allProducts)
+  console.log(brands_price);
+  //console.log(allProducts);
   
   var placep50=Math.round(0.5*brands_price.length)-1;
+  console.log(placep50);
   var p50=brands_price[placep50];
   spanp50.innerHTML = p50.price;
 
   
   var placep90=Math.round(0.9*brands_price.length)-1;
-  var p90=brands_price[placep90]
+  var p90=brands_price[placep90];
   spanp90.innerHTML = p90.price;
 
   var placep95=Math.round(0.95*brands_price.length)-1;
-  var p95=brands_price[placep95]
+  var p95=brands_price[placep95];
   spanp95.innerHTML = p95.price;
-  console.log(allProducts)
+  console.log(allProducts);
 };
 
-
-renderInfos(fetchAll());
+//renderInfos(products);
 
 /**
  * Render page selector
