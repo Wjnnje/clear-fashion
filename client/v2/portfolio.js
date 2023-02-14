@@ -47,8 +47,10 @@ var reasonablePrice={};
 distinctBrands.forEach(element => {
   reasonablePrice[element]=true;
 });
+var productLast;
 var allData;
 var allProducts=[];
+
 
 
 
@@ -177,15 +179,18 @@ const renderProducts = products => {
 
 function renderInfos (allProducts) {
 //GET BRANDS (Feature2) / RECENT (Feature)
+  var indexLast=0;
   for (let i=0;i<allProducts.length;i++){
     if (!Object.keys(distinctBrands).includes(allProducts[i].brand)) distinctBrands.push(allProducts[i].brand);
     if (new Date(allProducts[i].released)>w2_date) recentProducts.push(allProducts[i]);
     if (allProducts[i].price>100) reasonablePrice[allProducts[i].brand]=false;
+    if (new Date(allProducts[i].released)>new Date(allProducts[indexLast])) indexLast=i;
   }
   const nbBrands=distinctBrands.length;
   const nbNew=recentProducts.length;
   spanNbBrands.innerHTML = nbBrands;
   spanNewProducts.innerHTML = nbNew;
+  lastReleased.innerHTML=allProducts[indexLast].released;
   
   //GET PVALUES (Feature 10)
   var brands_price=Object.create(allProducts);
