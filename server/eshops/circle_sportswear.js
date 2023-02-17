@@ -9,7 +9,7 @@ const cheerio = require('cheerio');
 const parse = data => {
   const $ = cheerio.load(data);
 
-  return $('.ProductGridContainer')
+  return $('.grid__item')
     .map((i, element) => {
       const name = $(element)
         .find('.full-unstyled-link')
@@ -22,13 +22,13 @@ const parse = data => {
           .find('.price')
           .text()
       );
-      const color = $(element)
+      const characteristic = $(element)
         .find('.card__characteristic')
         .text()
         .trim()
         .replace(/\s/g, ' ');
 
-      return {name, price, color};
+      return {name, price, characteristic};
     })
     .get();
 };
