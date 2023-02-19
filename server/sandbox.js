@@ -25,7 +25,16 @@ async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=
     console.log(products_montlimart);
     console.log('===============Circle Sportswear=============');
     console.log(products_circle);
-    console.log('done');
+    console.log('=============================================\nDone');
+
+    var dict_brands={"dedicated":products_dedicated, "montlimart":products_montlimart, "circle":products_circle};
+    var dictstring = JSON.stringify(dict_brands);
+    console.log(dictstring);
+    var fs = require('fs');
+    fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/all_products.json", dictstring, function(err, result) {
+    if(err) console.log('error', err);
+    });
+
     process.exit(0);
   } catch (e) {
     console.error(e);
