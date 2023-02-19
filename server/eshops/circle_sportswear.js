@@ -19,16 +19,17 @@ const parse = data => {
         
       const price = parseInt(
         $(element)
-          .find('.price')
+          .find('.money')
           .text()
+          .replace("€","")
       );
-      const characteristic = $(element)
+      const characteristics = $(element)
         .find('.card__characteristic')
         .text()
         .trim()
         .replace(/\s/g, ' ');
 
-      return {name, price, characteristic};
+      return {name, price, characteristics};
     })
     .get();
 };

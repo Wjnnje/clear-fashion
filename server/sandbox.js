@@ -7,13 +7,16 @@ const link_dedicated="https://www.dedicatedbrand.com/en/men/news";
 const link_montlimart="https://www.montlimart.com/99-vetements";
 const link_circle="https://shop.circlesportswear.com/collections/all";
 
-async function sandbox (eshop = link_dedicated) {
+async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=link_circle) {
   try {
-    console.log(`🕵️‍♀️  browsing ${eshop} eshop`);
+    console.log(`🕵️‍♀️  browsing ${eshop1} eshop`);
+    const products_dedicated = await dedicatedbrand.scrape(eshop1);
 
-    const products_dedicated = await dedicatedbrand.scrape(eshop);
-    const products_montlimart = await montlimartbrand.scrape(eshop);
-    const products_circle = await circlebrand.scrape(eshop);
+    console.log(`🕵️‍♀️  browsing ${eshop2} eshop`);
+    const products_montlimart = await montlimartbrand.scrape(eshop2);
+
+    console.log(`🕵️‍♀️  browsing ${eshop3} eshop`);
+    const products_circle = await circlebrand.scrape(eshop3);
 
 
     console.log('===============Dedicated=============');
@@ -30,6 +33,6 @@ async function sandbox (eshop = link_dedicated) {
   }
 }
 
-const [,, eshop] = process.argv;
+const [,, eshop1, eshop2, eshop3] = process.argv;
 
-sandbox(eshop);
+sandbox(eshop1, eshop2, eshop3);
