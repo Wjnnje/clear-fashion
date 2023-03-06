@@ -28,8 +28,11 @@ const parse = data => {
         .text()
         .trim()
         .replace(/\s/g, ' ');
-
-      return {brand, name, price, color};
+      const image=!(element)
+        .find('.-100')
+        .attr('data-src');
+      var date_scrap=new Date().toISOString().slice(0,10);
+      return {brand, name, price, color, image, date_scrap};
     })
     .get();
 };
