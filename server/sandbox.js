@@ -6,17 +6,18 @@ const circlebrand = require('./eshops/circle_sportswear');
 const link_dedicated="https://www.dedicatedbrand.com/en/men/news";
 const link_montlimart="https://www.montlimart.com/99-vetements";
 const link_circle="https://shop.circlesportswear.com/collections/all";
+const fs = require('fs');
 
 async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=link_circle) {
   try {
     console.log(`🕵️‍♀️  browsing ${eshop1} eshop`);
-    const products_dedicated = await dedicatedbrand.scrape(eshop1);
+    const products_dedicated = await dedicatedbrand.scrapeAndSave(eshop1, "Dedicated.json");
 
     console.log(`🕵️‍♀️  browsing ${eshop2} eshop`);
-    const products_montlimart = await montlimartbrand.scrape(eshop2);
+    const products_montlimart = await montlimartbrand.scrapeAndSave(eshop2, "Montlimart.json");
 
     console.log(`🕵️‍♀️  browsing ${eshop3} eshop`);
-    const products_circle = await circlebrand.scrape(eshop3);
+    const products_circle = await circlebrand.scrapeAndSave(eshop3, "Circle.json");
 
 
     console.log('===============Dedicated=============');
@@ -28,10 +29,11 @@ async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=
     console.log('=============================================\nDone');
 
     var dict_brands={"dedicated":products_dedicated, "montlimart":products_montlimart, "circle":products_circle};
-    var dictstring = JSON.stringify(dict_brands);
-    console.log(dictstring);
-    var fs = require('fs');
-    fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/all_products.json", dictstring, function(err, result) {
+    //console.log(dict_brands);
+    var dictstring = JSON.stringify(dict_brands, null);
+    //console.log(dictstring);
+    
+    await fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/all_products.json", dictstring, function(err) {
     if(err) console.log('error', err);
     });
 

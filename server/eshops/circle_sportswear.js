@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
+const fs=require("fs");
 
 /**
  * Parse webpage e-shop
@@ -11,6 +12,7 @@ const parse = data => {
 
   return $('.grid__item')
     .map((i, element) => {
+      const brand="circle_sportswear";
       const name = $(element)
         .find('.full-unstyled-link')
         .text()
@@ -28,8 +30,10 @@ const parse = data => {
         .text()
         .trim()
         .replace(/\s/g, ' ');
-
-      return {name, price, characteristics};
+      const image=$(element)
+        .find('.motion-reduce')
+        .attr('srcset');
+      return {brand, name, price, characteristics};
     })
     .get();
 };
@@ -39,14 +43,16 @@ const parse = data => {
  * @param  {[type]}  url
  * @return {Array|null}
  */
-module.exports.scrape = async url => {
+module.exports.scrapeAndSave = async (url, filename) => {
   try {
     const response = await fetch(url);
 
     if (response.ok) {
       const body = await response.text();
+      const products=parse(body);
+      fs.writeFileSync(filename, JSON.stringify(products, null, 2));
 
-      return parse(body);
+      return products;
     }
 
     console.error(response);
