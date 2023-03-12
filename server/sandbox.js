@@ -21,19 +21,19 @@ async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=
 
 
     console.log('===============Dedicated=============');
-    console.log(products_dedicated);
+    //console.log(products_dedicated);
     console.log('===============Montlimart=============');
-    console.log(products_montlimart);
+    //console.log(products_montlimart);
     console.log('===============Circle Sportswear=============');
-    console.log(products_circle);
+    //console.log(products_circle);
     console.log('=============================================\nDone');
 
-    var dict_brands={"dedicated":products_dedicated, "montlimart":products_montlimart, "circle":products_circle};
+    var dict_brands=Object.assign({}, Object.assign({}, products_dedicated, products_montlimart), products_circle);
     //console.log(dict_brands);
     var dictstring = JSON.stringify(dict_brands, null);
     //console.log(dictstring);
     
-    await fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/all_products.json", dictstring, function(err) {
+    await fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/clear-fashion/server/all_products.json", dictstring, function(err) {
     if(err) console.log('error', err);
     });
 

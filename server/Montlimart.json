@@ -3,936 +3,945 @@
     "brand": "montlimart",
     "name": "PULL POLLEN",
     "price": 135,
-    "color": "ECRU"
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT LIGUE",
     "price": 70,
-    "color": "BLEU CLAIR"
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "SWEAT FUSION",
     "price": 105,
-    "color": "BLEU CLAIR"
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "BASKETS IMPACT",
     "price": 149,
-    "color": "CAMEL"
+    "color": "CAMEL",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "PULL PLANETE",
     "price": 135,
-    "color": "BEIGE"
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "T-SHIRT RESPECT",
-    "price": 75,
-    "color": "NOIR"
+    "name": "VESTE ATELIER",
+    "price": 150,
+    "color": "CAMEL",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT IDEAL",
+    "price": 60,
+    "color": "GRIS CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "SWEAT RESSOURCE",
     "price": 110,
-    "color": "ECRU/ BEIGE"
+    "color": "ECRU/ BEIGE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHAUSSETTES TENNIS",
     "price": 18,
-    "color": "BEIGE"
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "SWEAT MONDE",
     "price": 110,
-    "color": "MARRON"
-  },
-  {
-    "brand": "montlimart",
-    "name": "JEAN THOMAS",
-    "price": 110,
-    "color": "BRUT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "BLEU FONCE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE-VILLE",
-    "price": 110,
-    "color": "BLEU CARREAUX MARRON"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "BORDEAUX"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ALENTOUR",
-    "price": 135,
-    "color": "MARRON/BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "BOOTS MONTPLUIE",
-    "price": 85,
-    "color": "MARINE JACQUARD"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL EVOLUTION",
-    "price": 130,
-    "color": "CAMEL"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL PLANETE",
-    "price": 135,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "BLEU CARREAUX MARRON"
-  },
-  {
-    "brand": "montlimart",
-    "name": "BOOTS MONTPLUIE",
-    "price": 85,
-    "color": "NOIR CHEVRONS"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "BLEU CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CEINTURE KILOMETRE",
-    "price": 55,
-    "color": "VERT FORET"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ALENTOUR",
-    "price": 135,
-    "color": "KAKI/ECRU/GRIS"
-  },
-  {
-    "brand": "montlimart",
-    "name": "IMPERMEABLE AVERSE",
-    "price": 170,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "BOOTS MONTPLUIE",
-    "price": 85,
-    "color": "KAKI CHEVRONS"
+    "color": "MARRON",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "PULL POLLEN",
     "price": 135,
-    "color": "KAKI"
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "CHAUSSETTES SEMAINIER MONTLISOCK",
-    "price": 95,
-    "color": "MULTICOLORE"
+    "name": "CHEMISE CENTRE-VILLE",
+    "price": 110,
+    "color": "BLEU CARREAUX MARRON",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL PLANETE",
+    "price": 135,
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "BOOTS MONTPLUIE",
     "price": 85,
-    "color": "COGNAC CARREAUX"
+    "color": "MARINE JACQUARD",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL ORIGINE",
+    "name": "PULL PLANETE",
     "price": 135,
-    "color": "GRIS CLAIR"
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "T-SHIRT SYMBOLE",
-    "price": 70,
-    "color": "KAKI CLAIR"
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "BLEU FONCE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "KAKI CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SURTOUT",
-    "price": 110,
-    "color": "ANTHRACITE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES COFFRET MONTLISOCKS",
-    "price": 45,
-    "color": "KAKI/BEIGE/ANTHRA"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT INITIAL",
-    "price": 55,
-    "color": "BEIGE"
+    "name": "CHEMISE MONTLIMART",
+    "price": 95,
+    "color": "BLEU CARREAUX MARRON",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT CITADIN",
     "price": 55,
-    "color": "BLANC"
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "PULL VARIATION",
     "price": 130,
-    "color": "KAKI"
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "SWEAT FUSION",
-    "price": 105,
-    "color": "VERT"
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL NATAL",
-    "price": 145,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT IDEAL",
-    "price": 60,
-    "color": "GRIS CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
-    "price": 55,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE-VILLE",
-    "price": 105,
-    "color": "RAYURES BLANC BLEU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CEINTURE KILOMETRE",
-    "price": 55,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT LIGUE",
-    "price": 70,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "BOOTS MONTPLUIE",
-    "price": 85,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
-    "price": 55,
-    "color": "ROUGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "GILET NOSTALGIE",
-    "price": 150,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT MONDE",
-    "price": 110,
-    "color": "ROUGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL LIBRE",
-    "price": 135,
-    "color": "GRIS CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VARIATION",
+    "name": "PULL EVOLUTION",
     "price": 130,
-    "color": "ROUGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ALENTOUR",
-    "price": 135,
-    "color": "ANTHRA/GRIS/MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT IDEAL",
-    "price": 60,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL PLANETE",
-    "price": 135,
-    "color": "MARINE"
+    "color": "CAMEL",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CEINTURE KILOMETRE",
     "price": 55,
-    "color": "MARRON"
+    "color": "VERT FORET",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "ROUGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL PLANETE",
-    "price": 135,
-    "color": "KAKI CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SURTOUT",
-    "price": 110,
-    "color": "VERT KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL LIBRE",
-    "price": 135,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT RESPECT",
-    "price": 75,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES TENNIS",
-    "price": 18,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VERITABLE",
-    "price": 135,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL PANORAMA",
-    "price": 145,
-    "color": "GRIS /MARINE /SAPIN"
-  },
-  {
-    "brand": "montlimart",
-    "name": "VESTE ATELIER",
+    "name": "IMPERMEABLE AVERSE",
     "price": 170,
-    "color": "VELOURS KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT MI-TEMPS",
-    "price": 110,
-    "color": "ROUGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT JOUEUR",
-    "price": 70,
-    "color": "BLEU CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "POLO PARTAGE",
-    "price": 90,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ALPIN",
-    "price": 140,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT CAMPUS",
-    "price": 100,
-    "color": "VERT"
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "BOOTS MONTPLUIE",
     "price": 85,
-    "color": "MARRON CARREAUX"
+    "color": "KAKI CHEVRONS",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "SWEAT ENERGIE",
-    "price": 120,
-    "color": "ECRU/KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SURTOUT",
+    "name": "JEAN THOMAS",
     "price": 110,
-    "color": "GRIS"
+    "color": "BRUT",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "BOOTS MONTPLUIE",
     "price": 85,
-    "color": "ANTHRACITE"
+    "color": "NOIR CHEVRONS",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "BLEU"
+    "name": "BOOTS MONTPLUIE",
+    "price": 85,
+    "color": "COGNAC CARREAUX",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT SYMBOLE",
     "price": 70,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL CHALEUREUX",
-    "price": 150,
-    "color": "BLEU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT RESPECT",
-    "price": 75,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL BRISE",
-    "price": 140,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT CLIMAT",
-    "price": 95,
-    "color": "VERT SAPIN"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CEINTURE KILOMETRE",
-    "price": 55,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL NATAL",
-    "price": 145,
-    "color": "VERT"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SAINT PIERRE",
-    "price": 150,
-    "color": "ANTHRACITE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT CLIMAT",
-    "price": 95,
-    "color": "MOUTARDE"
+    "color": "KAKI CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHAUSSETTES MONTLISOCKS",
     "price": 15,
-    "color": "GRIS CLAIR"
+    "color": "KAKI CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "MOUTARDE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CEINTURE KILOMETRE",
-    "price": 55,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE-VILLE",
-    "price": 100,
-    "color": "BLEU CHINE"
+    "name": "CHEMISE SURTOUT",
+    "price": 110,
+    "color": "ANTHRACITE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT RESPECT",
     "price": 75,
-    "color": "TERRACOTTA"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL NATAL",
-    "price": 145,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VERITABLE",
-    "price": 135,
-    "color": "TERRACOTTA"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VERITABLE",
-    "price": 135,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "NOIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL EVOLUTION",
-    "price": 130,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES CHEVRON",
-    "price": 17,
-    "color": "BORDEAUX/MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
-    "price": 55,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT RESPECT",
-    "price": 75,
-    "color": "GRIS CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VERITABLE",
-    "price": 135,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL EVOLUTION",
-    "price": 130,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE-VILLE",
-    "price": 100,
-    "color": "NOIR CHINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
-    "price": 55,
-    "color": "ANTHRACITE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT DETENTE",
-    "price": 115,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "JOGGING MOELLEUX",
-    "price": 100,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "VERT KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "BOOTS MONTPLUIE",
-    "price": 85,
-    "color": "NOIR BRITISH"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL NUAGE",
-    "price": 150,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL BRISE",
-    "price": 140,
-    "color": "ECRU"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ORIGINE",
-    "price": 135,
-    "color": "ANTHRACITE"
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHAUSSETTES COFFRET MONTLISOCKS",
     "price": 45,
-    "color": "GRIS/VERT/MARINE"
+    "color": "KAKI/BEIGE/ANTHRA",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "CHAUSSETTES COFFRET MONTLISOCKS",
-    "price": 45,
-    "color": "KAKI/BORDEAUX/ANTHRA"
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "SWEAT DETENTE",
-    "price": 115,
-    "color": "GRIS CHINE"
+    "name": "SWEAT FUSION",
+    "price": 105,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT INITIAL",
     "price": 55,
-    "color": "VERT"
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "SWEAT CLIMAT",
-    "price": 95,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT MI-TEMPS",
-    "price": 110,
-    "color": "CAMEL"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SURTOUT",
-    "price": 110,
-    "color": "BORDEAUX"
-  },
-  {
-    "brand": "montlimart",
-    "name": "E-CARTE CADEAU",
-    "price": null,
-    "color": ""
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL ALENTOUR",
+    "name": "PULL LIBRE",
     "price": 135,
-    "color": "MARINE/TERRA/BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SURTOUT",
-    "price": 110,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT CLIMAT",
-    "price": 95,
-    "color": "ANTHRACITE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
-    "price": 55,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE BOURG",
-    "price": 105,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "POLO RECORD",
-    "price": 80,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES COFFRET COTELE",
-    "price": 45,
-    "color": "MARINE/GRIS/BORDEAUX"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL VERITABLE",
-    "price": 135,
-    "color": "KAKI"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SAINT PAUL",
-    "price": 150,
-    "color": "VERT RAYURES"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL DAMIER",
-    "price": 140,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "PULL PLANETE",
-    "price": 135,
-    "color": "MARRON"
+    "color": "GRIS CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHEMISE CENTRE-VILLE",
-    "price": 115,
-    "color": "TAUPE RAYURES"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ICONE",
-    "price": 55,
-    "color": "MARRON"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT BLASON",
-    "price": 65,
-    "color": "GRIS CHINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SAINT REMY",
-    "price": 155,
-    "color": "BLEU CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
-    "price": 95,
-    "color": "BLEU CLAIR"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE MONTLIMART",
     "price": 105,
-    "color": "BLEU RAYURES"
+    "color": "RAYURES BLANC BLEU",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "POLO MONTPOLO",
-    "price": 75,
-    "color": "MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHAUSSETTES MONTLISOCKS",
-    "price": 15,
-    "color": "BORDEAUX"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SAINT PIERRE",
-    "price": 145,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT BLASON",
-    "price": 65,
-    "color": "BLEU MARINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "T-SHIRT ESSAIM",
+    "name": "CEINTURE KILOMETRE",
     "price": 55,
-    "color": "GRIS CHINE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE SAINT PIERRE",
-    "price": 150,
-    "color": "BLEU CIEL RAYURES"
-  },
-  {
-    "brand": "montlimart",
-    "name": "SWEAT CLIMAT",
-    "price": 95,
-    "color": "ARGILE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "POLO MONTPOLO",
-    "price": 75,
-    "color": "BEIGE"
-  },
-  {
-    "brand": "montlimart",
-    "name": "POLO MONTPOLO",
-    "price": 75,
-    "color": "BLANC"
-  },
-  {
-    "brand": "montlimart",
-    "name": "CHEMISE CENTRE BOURG",
-    "price": 105,
-    "color": "BLEU"
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "T-SHIRT IDEAL",
     "price": 60,
-    "color": "ROUGE"
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "BOOTS MONTPLUIE",
+    "price": 85,
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VARIATION",
+    "price": 130,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT MONDE",
+    "price": 110,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT RESPECT",
+    "price": 75,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT LIGUE",
+    "price": 70,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CEINTURE KILOMETRE",
+    "price": 55,
+    "color": "MARRON",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL PLANETE",
+    "price": 135,
+    "color": "KAKI CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SURTOUT",
+    "price": 110,
+    "color": "VERT KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL LIBRE",
+    "price": 135,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES TENNIS",
+    "price": 18,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VERITABLE",
+    "price": 135,
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "VESTE ATELIER",
+    "price": 170,
+    "color": "VELOURS KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT MI-TEMPS",
+    "price": 110,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT JOUEUR",
+    "price": 70,
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHEMISE MONTLIMART",
-    "price": 105,
-    "color": "BLEU FINES RAYURES"
+    "price": 95,
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "POLO PARTAGE",
+    "price": 90,
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CAMPUS",
+    "price": 100,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "BOOTS MONTPLUIE",
+    "price": 85,
+    "color": "MARRON CARREAUX",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT ENERGIE",
+    "price": 120,
+    "color": "ECRU/KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SURTOUT",
+    "price": 110,
+    "color": "GRIS",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "BOOTS MONTPLUIE",
+    "price": 85,
+    "color": "ANTHRACITE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT SYMBOLE",
+    "price": 70,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CLIMAT",
+    "price": 95,
+    "color": "VERT SAPIN",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CEINTURE KILOMETRE",
+    "price": 55,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT RESPECT",
+    "price": 75,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE CENTRE-VILLE",
+    "price": 100,
+    "color": "BLEU CHINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "GRIS CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CEINTURE KILOMETRE",
+    "price": 55,
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CLIMAT",
+    "price": 95,
+    "color": "MOUTARDE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHEMISE SAINT PIERRE",
     "price": 150,
-    "color": "ROUGE CARREAUX"
+    "color": "ANTHRACITE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
-    "name": "PULL NATAL",
-    "price": 145,
-    "color": "GRIS CLAIR"
+    "name": "T-SHIRT RESPECT",
+    "price": 75,
+    "color": "TERRACOTTA",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VERITABLE",
+    "price": 135,
+    "color": "TERRACOTTA",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VERITABLE",
+    "price": 135,
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "NOIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL EVOLUTION",
+    "price": 130,
+    "color": "ECRU",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES CHEVRON",
+    "price": 17,
+    "color": "BORDEAUX/MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT RESPECT",
+    "price": 75,
+    "color": "GRIS CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VERITABLE",
+    "price": 135,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL EVOLUTION",
+    "price": 130,
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE CENTRE-VILLE",
+    "price": 100,
+    "color": "NOIR CHINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "ANTHRACITE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT DETENTE",
+    "price": 115,
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "JOGGING MOELLEUX",
+    "price": 100,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES SEMAINIER MONTLISOCK",
+    "price": 95,
+    "color": "MULTICOLORE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 95,
+    "color": "VERT KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT DETENTE",
+    "price": 115,
+    "color": "GRIS CHINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES COFFRET MONTLISOCKS",
+    "price": 45,
+    "color": "GRIS/VERT/MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES COFFRET MONTLISOCKS",
+    "price": 45,
+    "color": "KAKI/BORDEAUX/ANTHRA",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "BOOTS MONTPLUIE",
+    "price": 85,
+    "color": "NOIR BRITISH",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT INITIAL",
+    "price": 55,
+    "color": "VERT",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CLIMAT",
+    "price": 95,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT MI-TEMPS",
+    "price": 110,
+    "color": "CAMEL",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SURTOUT",
+    "price": 110,
+    "color": "BORDEAUX",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "E-CARTE CADEAU",
+    "price": null,
+    "color": "",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SURTOUT",
+    "price": 110,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CLIMAT",
+    "price": 95,
+    "color": "ANTHRACITE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 95,
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "POLO RECORD",
+    "price": 80,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES COFFRET COTELE",
+    "price": 45,
+    "color": "MARINE/GRIS/BORDEAUX",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE CENTRE BOURG",
+    "price": 105,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SAINT PAUL",
+    "price": 150,
+    "color": "VERT RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL VERITABLE",
+    "price": 135,
+    "color": "KAKI",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL DAMIER",
+    "price": 140,
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "PULL PLANETE",
+    "price": 135,
+    "color": "MARRON",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE CENTRE-VILLE",
+    "price": 115,
+    "color": "TAUPE RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ICONE",
+    "price": 55,
+    "color": "MARRON",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT BLASON",
+    "price": 65,
+    "color": "GRIS CHINE",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHEMISE SAINT REMY",
     "price": 155,
-    "color": "BLANC"
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 95,
+    "color": "BLEU CLAIR",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 105,
+    "color": "BLEU RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "POLO MONTPOLO",
+    "price": 75,
+    "color": "MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SAINT PIERRE",
+    "price": 145,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHAUSSETTES MONTLISOCKS",
+    "price": 15,
+    "color": "BORDEAUX",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT BLASON",
+    "price": 65,
+    "color": "BLEU MARINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT ESSAIM",
+    "price": 55,
+    "color": "GRIS CHINE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SAINT PIERRE",
+    "price": 150,
+    "color": "BLEU CIEL RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "SWEAT CLIMAT",
+    "price": 95,
+    "color": "ARGILE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "POLO MONTPOLO",
+    "price": 75,
+    "color": "BEIGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "POLO MONTPOLO",
+    "price": 75,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE CENTRE BOURG",
+    "price": 105,
+    "color": "BLEU",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "T-SHIRT IDEAL",
+    "price": 60,
+    "color": "ROUGE",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 95,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE MONTLIMART",
+    "price": 105,
+    "color": "BLEU FINES RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SAINT PIERRE",
+    "price": 150,
+    "color": "ROUGE CARREAUX",
+    "date_scrap": "2023-03-12"
   },
   {
     "brand": "montlimart",
     "name": "CHEMISE SAINT REMY",
     "price": 160,
-    "color": "MARINE RAYURES"
+    "color": "MARINE RAYURES",
+    "date_scrap": "2023-03-12"
+  },
+  {
+    "brand": "montlimart",
+    "name": "CHEMISE SAINT REMY",
+    "price": 155,
+    "color": "BLANC",
+    "date_scrap": "2023-03-12"
   }
 ]

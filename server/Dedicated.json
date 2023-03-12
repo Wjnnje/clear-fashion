@@ -1,6 +1,21 @@
 [
   {
     "brand": "dedicated",
+    "name": "T-shirt Stockholm Butterfly Oat White",
+    "price": 39
+  },
+  {
+    "brand": "dedicated",
+    "name": "Shirt Marstrand Butterfly Oat White",
+    "price": 89
+  },
+  {
+    "brand": "dedicated",
+    "name": "Swim Shorts Sandhamn Irregular Stripe Multi Color",
+    "price": 69
+  },
+  {
+    "brand": "dedicated",
     "name": "Shirt Marstrand Ocean Ink Multi Color",
     "price": 89
   },
@@ -12,11 +27,6 @@
   {
     "brand": "dedicated",
     "name": "Shirt Marstrand Palm Leaves Green",
-    "price": 89
-  },
-  {
-    "brand": "dedicated",
-    "name": "Shirt Marstrand Butterfly Oat White",
     "price": 89
   },
   {
@@ -188,15 +198,5 @@
     "brand": "dedicated",
     "name": "T-shirt Stockholm Shrigley Bee Off White",
     "price": 39
-  },
-  {
-    "brand": "dedicated",
-    "name": "T-shirt Stockholm Base Quiet Green",
-    "price": 29
-  },
-  {
-    "brand": "dedicated",
-    "name": "Sweatshirt Malmoe Base Quiet Green",
-    "price": 69
   }
 ]

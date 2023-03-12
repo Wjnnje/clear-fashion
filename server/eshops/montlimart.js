@@ -28,7 +28,7 @@ const parse = data => {
         .text()
         .trim()
         .replace(/\s/g, ' ');
-      const image=!(element)
+      const image=$(element)
         .find('.-100')
         .attr('data-src');
       var date_scrap=new Date().toISOString().slice(0,10);
