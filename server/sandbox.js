@@ -28,12 +28,16 @@ async function sandbox (eshop1 = link_dedicated, eshop2=link_montlimart, eshop3=
     //console.log(products_circle);
     console.log('=============================================\nDone');
 
-    var dict_brands=Object.assign({}, Object.assign({}, products_dedicated, products_montlimart), products_circle);
+    //var dict_brands=Object.assign({}, products_dedicated, products_montlimart);
+    var dict_brands={...products_dedicated, ...products_montlimart};
+    dict_brands={...dict_brands, ...products_circle};
+    console.log(dict_brands);
+    //Object.assign({}, dict_brands, products_circle);
     //console.log(dict_brands);
-    var dictstring = JSON.stringify(dict_brands, null);
+    var dictstring = JSON.stringify(dict_brands);
     //console.log(dictstring);
     
-    await fs.writeFile("C:/Users/meama/Documents/A4/S2/EWA Web Application Architectures/clear-fashion/server/all_products.json", dictstring, function(err) {
+    await fs.appendFile("all_products.json", dictstring, function(err) {
     if(err) console.log('error', err);
     });
 

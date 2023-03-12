@@ -31,10 +31,17 @@ const parse = data => {
         .trim()
         .replace(/\s/g, ' ');
       const image=$(element)
-        .find('.motion-reduce')
-        .attr('srcset');
+        .find('.media')
+        .find('img')
+        .eq(0)
+        .attr('src');
+      const color=$(element)
+      .find('.color-variant')
+      .eq(0)
+      .attr('data-color');
+
       var date_scrap=new Date().toISOString().slice(0,10);
-      return {brand, name, price, image,characteristics, date_scrap};
+      return {brand, name, price, color, characteristics, image, date_scrap};
     })
     .get();
 };

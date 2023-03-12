@@ -29,7 +29,7 @@ const parse = data => {
         .trim()
         .replace(/\s/g, ' ');
       const image=$(element)
-        .find('.-100')
+        .find('.w-100')
         .attr('data-src');
       var date_scrap=new Date().toISOString().slice(0,10);
       return {brand, name, price, color, image, date_scrap};

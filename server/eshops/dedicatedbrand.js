@@ -19,15 +19,17 @@ const parse = data => {
         .trim()
         .replace(/\s/g, ' ');
       const image = $(element)
-        .find('.productList-title')
-        .attr('href');
+        .find('.productList-image')
+        .find('img')
+        .eq(0)
+        .attr('data-src');
       const price = parseInt(
         $(element)
           .find('.productList-price')
-          .text()
-      );
-
-      return {brand, name, image, price};
+          .text());
+      const color=name.substring(name.lastIndexOf(" ")+1, name.length);
+      var date_scrap=new Date().toISOString().slice(0,10);
+      return {brand, name, price, color, image, date_scrap};
     })
     .get();
 };
