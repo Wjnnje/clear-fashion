@@ -31,7 +31,7 @@ const parse = data => {
       const image=$(element)
         .find('.w-100')
         .attr('data-src');
-      var date_scrap=new Date().toISOString().slice(0,10);
+      var date_scrap=new Date();//.toISOString().slice(0,10);
       return {brand, name, price, color, image, date_scrap};
     })
     .get();

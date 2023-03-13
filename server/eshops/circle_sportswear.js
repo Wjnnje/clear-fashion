@@ -40,7 +40,7 @@ const parse = data => {
       .eq(0)
       .attr('data-color');
 
-      var date_scrap=new Date().toISOString().slice(0,10);
+      var date_scrap=new Date();//.toISOString().slice(0,10);
       return {brand, name, price, color, characteristics, image, date_scrap};
     })
     .get();
