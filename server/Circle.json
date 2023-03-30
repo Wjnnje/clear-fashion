@@ -1,457 +1,509 @@
 [
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt de Sport Iconic                              T-shirt de Sport Iconic",
-    "price": 59,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT DE SPORT ICONIC               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-sport-iconic",
+    "price": 65,
     "color": "Navy",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_navy_1_4c3443c0-d990-485d-a22e-450b621f85d1.jpg?v=1668151496&width=533",
-    "date_scrap": "2023-03-13T00:09:28.280Z"
+    "date_scrap": "2023-03-30T12:15:39.641Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Legging Get in Shape                              Legging Get in Shape",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING GET IN SHAPE               ",
+    "link": "https://shop.circlesportswear.com/products/legging-get-in-shape",
     "price": 95,
     "color": "Onyx Black",
-    "characteristics": "Gainant - 64 cmsGainant - 64 cms",
+    "characteristics": "SCULPTANT - 64 CMS",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_get_in_shape_cherry_red_1.jpg?v=1668581402&width=533",
-    "date_scrap": "2023-03-13T00:09:28.281Z"
+    "date_scrap": "2023-03-30T12:15:39.642Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Short de Sport One For All                              Short de Sport One For All",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE SPORT ONE FOR ALL               ",
+    "link": "https://shop.circlesportswear.com/products/short-sport-one-for-all",
     "price": 69,
-    "color": "Onyx Black",
-    "characteristics": "Performant - DéperlantPerformant - Déperlant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_one_for_all_moss_1_2ebdbf23-7ba2-49b9-a3bf-4204b7491beb.jpg?v=1668437268&width=533",
-    "date_scrap": "2023-03-13T00:09:28.281Z"
+    "color": "Moss",
+    "characteristics": "PERFORMANT - DÉPERLANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_one_for_all_moss_1_76f656d5-bfb5-4e09-8669-befec2e31603.jpg?v=1680020398&width=533",
+    "date_scrap": "2023-03-30T12:15:39.642Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Brassière Support Me Softly                              Brassière Support Me Softly",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "BRASSIÈRE SUPPORT ME SOFTLY               ",
+    "link": "https://shop.circlesportswear.com/products/brassiere-support-me-softly",
     "price": 69,
     "color": "Navy",
-    "characteristics": "confort - flexibilitéconfort - flexibilité",
+    "characteristics": "CONFORT - FLEXIBILITÉ",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_support_me_softly_electric_blue.jpg?v=1666103670&width=533",
-    "date_scrap": "2023-03-13T00:09:28.281Z"
+    "date_scrap": "2023-03-30T12:15:39.642Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Crop-top sport Smooth Operator                              Crop-top sport Smooth Operator",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "CROP-TOP SPORT SMOOTH OPERATOR               ",
+    "link": "https://shop.circlesportswear.com/products/crop-top-smooth-operator",
     "price": 59,
     "color": "Burgundy Red",
-    "characteristics": "Doux - LégerDoux - Léger",
+    "characteristics": "DOUX - LÉGER",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/crop_top_smooth_operator_sand_1.jpg?v=1666165342&width=533",
-    "date_scrap": "2023-03-13T00:09:28.282Z"
+    "date_scrap": "2023-03-30T12:15:39.642Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Le tour de cou Protect                              Le tour de cou Protect",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LE TOUR DE COU PROTECT               ",
+    "link": "https://shop.circlesportswear.com/products/tour-de-cou-linfini",
     "price": 19,
     "color": "Onyx Black",
-    "characteristics": "Technique - Multi-usagesTechnique - Multi-usages",
+    "characteristics": "TECHNIQUE - MULTI-USAGES",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tour_de_cou_protect_onyx_black_5.jpg?v=1675777486&width=533",
-    "date_scrap": "2023-03-13T00:09:28.282Z"
+    "date_scrap": "2023-03-30T12:15:39.643Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt Iconic Manifesto                              T-shirt Iconic Manifesto",
-    "price": 65,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT ICONIC MANIFESTO               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-iconic-manifesto",
+    "price": 69,
     "color": "Onyx Black",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_manifesto_lilac_1.jpg?v=1652798657&width=533",
-    "date_scrap": "2023-03-13T00:09:28.282Z"
+    "date_scrap": "2023-03-30T12:15:39.643Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt Technique Agility                              T-shirt Technique Agility",
-    "price": 59,
-    "color": "Granite Grey",
-    "characteristics": "TechniqueTechnique",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT TECHNIQUE AGILITY               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-technique-agility",
+    "price": 65,
+    "color": "Mist Blue",
+    "characteristics": "TECHNIQUE",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_agility_granite_grey_1.jpg?v=1669191822&width=533",
-    "date_scrap": "2023-03-13T00:09:28.282Z"
+    "date_scrap": "2023-03-30T12:15:39.643Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt Jim                              T-shirt Jim",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE SPORT BACK ON TRACK               ",
+    "link": "https://shop.circlesportswear.com/products/short-de-sport-femme-back-on-track",
+    "price": 75,
+    "color": "Moss",
+    "characteristics": "GAINANT - 26 CMS",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_audace_moss_1.jpg?v=1651253267&width=533",
+    "date_scrap": "2023-03-30T12:15:39.643Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT JIM               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-jim",
     "price": 69,
     "color": "Purple Rain",
-    "characteristics": "Coupe AmpleCoupe Ample",
+    "characteristics": "COUPE AMPLE",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_jim_purple_rain_1.jpg?v=1661244864&width=533",
-    "date_scrap": "2023-03-13T00:09:28.282Z"
+    "date_scrap": "2023-03-30T12:15:39.644Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Short de Sport Back on Track                              Short de Sport Back on Track",
-    "price": 75,
-    "color": "Moss",
-    "characteristics": "Gainant - 26 CMSGainant - 26 CMS",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_audace_moss_1.jpg?v=1651253267&width=533",
-    "date_scrap": "2023-03-13T00:09:28.283Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Legging Ava                              Legging Ava",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING AVA               ",
+    "link": "https://shop.circlesportswear.com/products/legging-ava",
     "price": 95,
     "color": "Onyx Black",
-    "characteristics": "Compressant - 64 cmsCompressant - 64 cms",
+    "characteristics": "COMPRESSANT - 64 CMS",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_ava_onyx_black_1.jpg?v=1666182837&width=533",
-    "date_scrap": "2023-03-13T00:09:28.291Z"
+    "date_scrap": "2023-03-30T12:15:39.644Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Brassière Level Up                              Brassière Level Up",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "BRASSIÈRE LEVEL UP               ",
+    "link": "https://shop.circlesportswear.com/products/brassiere-level-up",
     "price": 79,
-    "color": "Moss",
-    "characteristics": "MaintienMaintien",
+    "color": "Mont Blanc",
+    "characteristics": "MAINTIEN",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_level_up_cherry_red_1.jpg?v=1668150631&width=533",
-    "date_scrap": "2023-03-13T00:09:28.291Z"
+    "date_scrap": "2023-03-30T12:15:39.644Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Débardeur de sport Get Comfy                              Débardeur de sport Get Comfy",
-    "price": 55,
-    "color": "Sand",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "DÉBARDEUR DE SPORT GET COMFY               ",
+    "link": "https://shop.circlesportswear.com/products/debardeur-sport-get-comfy",
+    "price": 59,
+    "color": "Lilac",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_authentique_sand_1.jpg?v=1668581515&width=533",
-    "date_scrap": "2023-03-13T00:09:28.292Z"
+    "date_scrap": "2023-03-30T12:15:39.644Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Haut à manches longues Femme - Motivation                              Haut à manches longues Femme - Motivation",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HAUT À MANCHES LONGUES FEMME - MOTIVATION               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-manches-longues-sport-femme",
     "price": 85,
     "color": "Volcano Black",
-    "characteristics": "RespirantRespirant",
+    "characteristics": "RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_motivation_noir_chine_6.jpg?v=1662619662&width=533",
-    "date_scrap": "2023-03-13T00:09:28.292Z"
+    "date_scrap": "2023-03-30T12:15:39.645Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Haut à manches longues Homme - Motivation                              Haut à manches longues Homme - Motivation",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HAUT À MANCHES LONGUES HOMME - MOTIVATION               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-manches-longues-sport-homme",
     "price": 85,
     "color": "Granite Grey",
-    "characteristics": "RespirantRespirant",
+    "characteristics": "RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_motivation_homme_volcano_black_1.jpg?v=1668674932&width=533",
-    "date_scrap": "2023-03-13T00:09:28.292Z"
+    "date_scrap": "2023-03-30T12:15:39.645Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Short de sport femme Allure                              Short de sport femme Allure",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE SPORT FEMME ALLURE               ",
+    "link": "https://shop.circlesportswear.com/products/short-sport-femme-allure",
     "price": 75,
-    "characteristics": "Gainant - 26 cmsGainant - 26 cms",
+    "characteristics": "GAINANT - 26 CMS",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_allure_1.jpg?v=1651250742&width=533",
-    "date_scrap": "2023-03-13T00:09:28.292Z"
+    "date_scrap": "2023-03-30T12:15:39.645Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Brassière Yvette                              Brassière Yvette",
-    "price": 75,
-    "color": "Onyx Black",
-    "characteristics": "confort - flexibilitéconfort - flexibilité",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_yvette_onyx_black_1.jpg?v=1666182928&width=533",
-    "date_scrap": "2023-03-13T00:09:28.292Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Short de Sport Get Shorty                              Short de Sport Get Shorty",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE SPORT GET SHORTY               ",
+    "link": "https://shop.circlesportswear.com/products/short-get-shorty",
     "price": 69,
-    "color": "Onyx Black",
-    "characteristics": "Gainant - 15 CMSGainant - 15 CMS",
+    "color": "Moss",
+    "characteristics": "GAINANT - 15 CMS",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_get_shorty_onyx_black_1.jpg?v=1668581823&width=533",
-    "date_scrap": "2023-03-13T00:09:28.293Z"
+    "date_scrap": "2023-03-30T12:15:39.645Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Haut sans manche Muscle Tee                              Haut sans manche Muscle Tee",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HAUT SANS MANCHE MUSCLE TEE               ",
+    "link": "https://shop.circlesportswear.com/products/haut-sans-manche-muscle-tee",
     "price": 59,
     "color": "Moss",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_muscle_tee_burgundy_red_1.jpg?v=1669192220&width=533",
-    "date_scrap": "2023-03-13T00:09:28.293Z"
+    "date_scrap": "2023-03-30T12:15:39.646Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Chaussettes de running Speedy High                              Chaussettes de running Speedy High",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "CHAUSSETTES DE RUNNING SPEEDY HIGH               ",
+    "link": "https://shop.circlesportswear.com/products/chaussettes-de-running-speedy-high",
     "price": 22,
     "color": "Mont Blanc",
-    "characteristics": "TechniqueTechnique",
+    "characteristics": "TECHNIQUE",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_HI_lilac_1.jpg?v=1671712742&width=533",
-    "date_scrap": "2023-03-13T00:09:28.293Z"
+    "date_scrap": "2023-03-30T12:15:39.646Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Hoodie Oversize Get Lucky                              Hoodie Oversize Get Lucky",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "BRASSIÈRE YVETTE               ",
+    "link": "https://shop.circlesportswear.com/products/brassiere-yvette",
+    "price": 75,
+    "color": "Onyx Black",
+    "characteristics": "CONFORT - FLEXIBILITÉ",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_yvette_onyx_black_1.jpg?v=1666182928&width=533",
+    "date_scrap": "2023-03-30T12:15:39.646Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HOODIE OVERSIZE GET LUCKY               ",
+    "link": "https://shop.circlesportswear.com/products/hoodie-get-lucky",
     "price": 149,
     "color": "Navy",
-    "characteristics": "Doux - LifestyleDoux - Lifestyle",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/hoodie_get_lucky_lilac_men_1.jpg?v=1677654434&width=533",
-    "date_scrap": "2023-03-13T00:09:28.293Z"
+    "characteristics": "DOUX - LIFESTYLE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/hoodie_get_lucky_moss_men_1.jpg?v=1679987770&width=533",
+    "date_scrap": "2023-03-30T12:15:39.646Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Pantalon de Jogging Get Lucky                              Pantalon de Jogging Get Lucky",
-    "price": 129,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "PANTALON DE JOGGING GET LUCKY               ",
+    "link": "https://shop.circlesportswear.com/products/jogging-pants-get-lucky",
+    "price": 139,
     "color": "Lilac",
-    "characteristics": "Doux - LifestyleDoux - Lifestyle",
+    "characteristics": "DOUX - LIFESTYLE",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/jogging_get_lucky_moss_men_1.jpg?v=1677499453&width=533",
-    "date_scrap": "2023-03-13T00:09:28.293Z"
+    "date_scrap": "2023-03-30T12:15:39.646Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt à manches longues Feel Good POP                              T-shirt à manches longues Feel Good POP",
-    "price": 79,
-    "color": "Onyx Black",
-    "characteristics": "Confort - LifestyleConfort - Lifestyle",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_feel_good_pop_onyx_black_1.jpg?v=1668490722&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT À MANCHES LONGUES FEEL GOOD POP               ",
+    "link": "https://shop.circlesportswear.com/products/feel-good-long-sleeve-pop",
+    "price": 85,
+    "color": "Minty Fresh",
+    "characteristics": "CONFORT - LIFESTYLE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_feel_good_pop_minty_fresh_men_1.jpg?v=1679987416&width=533",
+    "date_scrap": "2023-03-30T12:15:39.647Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Tapis de yoga en liège Rise                              Tapis de yoga en liège Rise",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SWEAT OVERSIZE GET LUCKY               ",
+    "link": "https://shop.circlesportswear.com/products/sweat-femme-get-lucky",
+    "price": 139,
+    "color": "Lilac",
+    "characteristics": "DOUX - LIFESTYLE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/sweat_get_lucky_femme_navy_2_0391161e-15ad-4465-8e30-4f9b305ff9ac.jpg?v=1668594734&width=533",
+    "date_scrap": "2023-03-30T12:15:39.647Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "TAPIS DE YOGA EN LIÈGE RISE               ",
+    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-liege",
     "price": 85,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapis_liege_1.jpg?v=1654615724&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
+    "date_scrap": "2023-03-30T12:15:39.647Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Sweat Oversize Get Lucky                              Sweat Oversize Get Lucky",
-    "price": 139,
-    "color": "Moss",
-    "characteristics": "Doux - LifestyleDoux - Lifestyle",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/sweat_get_lucky_femme_navy_2_0391161e-15ad-4465-8e30-4f9b305ff9ac.jpg?v=1668594734&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Legging de Running Homme Men in Tights                              Legging de Running Homme Men in Tights",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING DE RUNNING HOMME MEN IN TIGHTS               ",
+    "link": "https://shop.circlesportswear.com/products/legging-de-running-homme-men-in-tights",
     "price": 95,
     "color": "Moss",
-    "characteristics": "Compressant - RespirantCompressant - Respirant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_men_in_tights_moss_1_720fe00a-ffef-4281-91ad-309b281e7acd.jpg?v=1668526916&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
+    "characteristics": "COMPRESSANT - RESPIRANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_men_in_tights_moss_1.jpg?v=1678700505&width=533",
+    "date_scrap": "2023-03-30T12:15:39.647Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Gourde en aluminium - Protect                              Gourde en aluminium - Protect",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "GOURDE EN ALUMINIUM - PROTECT               ",
+    "link": "https://shop.circlesportswear.com/products/gourde-aluminium-protect",
     "price": 20,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourde_aluminium_750_ml_1.jpg?v=1651263653&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
+    "date_scrap": "2023-03-30T12:15:39.647Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt de Sport Iconic POP                              T-shirt de Sport Iconic POP",
-    "price": 65,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT DE SPORT ICONIC POP               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-iconic-pop",
+    "price": 69,
     "color": "Navy",
-    "characteristics": "Léger - RespirantLéger - Respirant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_pop_navy_women_1.jpg?v=1676993264&width=533",
-    "date_scrap": "2023-03-13T00:09:28.294Z"
+    "characteristics": "LÉGER - RESPIRANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_pop_minty_fresh_2.jpg?v=1679986851&width=533",
+    "date_scrap": "2023-03-30T12:15:39.648Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Gourde en plastique recyclé - Sunrise Rose                              Gourde en plastique recyclé - Sunrise Rose",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE COMPRESSION HIT THE ROAD               ",
+    "link": "https://shop.circlesportswear.com/products/short-de-compression-hit-the-road",
+    "price": 75,
+    "color": "Onyx Black",
+    "characteristics": "COMPRESSANT - LAYER",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/biker_hit_the_road_moss_1.jpg?v=1668581684&width=533",
+    "date_scrap": "2023-03-30T12:15:39.648Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "GOURDE EN PLASTIQUE RECYCLÉ - SUNRISE ROSE               ",
+    "link": "https://shop.circlesportswear.com/products/gourde-en-plastique-recycle",
     "price": 10,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourdeplastique_rose_1.jpg?v=1652795609&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
+    "date_scrap": "2023-03-30T12:15:39.648Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Short de Compression Hit The Road                              Short de Compression Hit The Road",
-    "price": 75,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT DE SPORT GET READY               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-femme-get-ready",
+    "price": 65,
     "color": "Moss",
-    "characteristics": "Compressant - LayerCompressant - Layer",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/biker_hit_the_road_moss_1.jpg?v=1668581684&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "T-shirt de Sport Get Ready                              T-shirt de Sport Get Ready",
-    "price": 59,
-    "color": "Moss",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_moss_1_fd059d81-13c2-49e7-9752-b875256085b3.jpg?v=1669193098&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
+    "date_scrap": "2023-03-30T12:15:39.648Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Tapis de yoga recyclé                              Tapis de yoga recyclé",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT DE SPORT GET READY QUICK DRY               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-get-ready-quick-dry",
+    "price": 65,
+    "color": "Granite Grey",
+    "characteristics": "TECHNIQUE - CONFORTABLE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_quick_dry_granite_grey_1.jpg?v=1669192775&width=533",
+    "date_scrap": "2023-03-30T12:15:39.648Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "CHAUSSETTES DE RUNNING SPEEDY LOW               ",
+    "link": "https://shop.circlesportswear.com/products/chaussettes-de-running-speedy-low",
+    "price": 19,
+    "color": "Navy",
+    "characteristics": "TECHNIQUE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_LO_navy_1_8a7a945c-9d4e-4c10-badb-edec4ae5f2b8.jpg?v=1671724740&width=533",
+    "date_scrap": "2023-03-30T12:15:39.648Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "TAPIS DE YOGA RECYCLÉ               ",
+    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-recycle",
     "price": 110,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapisyoga_1.jpg?v=1651252529&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
+    "date_scrap": "2023-03-30T12:15:39.648Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Chaussettes de running Speedy Low                              Chaussettes de running Speedy Low",
-    "price": 19,
-    "color": "Navy",
-    "characteristics": "TechniqueTechnique",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_LO_navy_1_8a7a945c-9d4e-4c10-badb-edec4ae5f2b8.jpg?v=1671724740&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "T-shirt de Sport Get Ready Quick Dry                              T-shirt de Sport Get Ready Quick Dry",
-    "price": 59,
-    "color": "Granite Grey",
-    "characteristics": "Technique - ConfortableTechnique - Confortable",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_quick_dry_granite_grey_1.jpg?v=1669192775&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Gourde en plastique recyclé - Sunrise Bleue                              Gourde en plastique recyclé - Sunrise Bleue",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "GOURDE EN PLASTIQUE RECYCLÉ - SUNRISE BLEUE               ",
+    "link": "https://shop.circlesportswear.com/products/gourde-en-plastique-recycle-sunrise-bleue",
     "price": 11,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourdeplastique_bleue_1_4905c4d6-ed7e-46fe-8abc-b546570e1ca2.jpg?v=1654607034&width=533",
-    "date_scrap": "2023-03-13T00:09:28.295Z"
+    "date_scrap": "2023-03-30T12:15:39.649Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Le tour de cou Protect Quick Dry                              Le tour de cou Protect Quick Dry",
-    "price": 19,
-    "color": "Granite Grey",
-    "characteristics": "Technique - Multi-usagesTechnique - Multi-usages",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tour_de_cou_protect_granite_grey_1.jpg?v=1666338441&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Legging Get in Shape 53                              Legging Get in Shape 53",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING GET IN SHAPE 53               ",
+    "link": "https://shop.circlesportswear.com/products/legging-get-in-shape-53",
     "price": 89,
     "color": "Moss",
-    "characteristics": "Gainant - 53 cmsGainant - 53 cms",
+    "characteristics": "SCULPTANT - 53 CMS",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_get_in_shape_53_moss_1.jpg?v=1669193891&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
+    "date_scrap": "2023-03-30T12:15:39.649Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Chaussettes de running Stripes                              Chaussettes de running Stripes",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "CHAUSSETTES DE RUNNING STRIPES               ",
+    "link": "https://shop.circlesportswear.com/products/copy-of-chaussettes-de-running-stripes",
     "price": 25,
     "color": "Navy",
-    "characteristics": "Respirabilité - MaintienRespirabilité - Maintien",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/chaussettes_stripes_navy_1.jpg?v=1676272372&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
+    "characteristics": "RESPIRABILITÉ - MAINTIEN",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/chaussettes_stripes_navy_1_4875a62d-34b9-4709-93c8-a94051951754.jpg?v=1679991212&width=533",
+    "date_scrap": "2023-03-30T12:15:39.649Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt Iconic Social                              T-shirt Iconic Social",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LE TOUR DE COU PROTECT QUICK DRY               ",
+    "link": "https://shop.circlesportswear.com/products/le-tour-de-cou-protect-quick-dry",
+    "price": 19,
+    "color": "Granite Grey",
+    "characteristics": "TECHNIQUE - MULTI-USAGES",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tour_de_cou_protect_granite_grey_1.jpg?v=1666338441&width=533",
+    "date_scrap": "2023-03-30T12:15:39.649Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT ICONIC SOCIAL               ",
+    "link": "https://shop.circlesportswear.com/products/t-shirt-iconic-social",
     "price": 50,
     "color": "Noire",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_la_montgolfiere_noire_1.jpg?v=1662736374&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
+    "date_scrap": "2023-03-30T12:15:39.650Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "T-shirt à manches longues Feel Good                              T-shirt à manches longues Feel Good",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "T-SHIRT À MANCHES LONGUES FEEL GOOD               ",
+    "link": "https://shop.circlesportswear.com/products/haut-manches-longues-feel-good",
     "price": 79,
     "color": "Onyx Black",
-    "characteristics": "Confort - LifestyleConfort - Lifestyle",
+    "characteristics": "CONFORT - LIFESTYLE",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_feel_good_onyx_black_1.jpg?v=1668579733&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
+    "date_scrap": "2023-03-30T12:15:39.650Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Débardeur Get Comfy Quick Dry                              Débardeur Get Comfy Quick Dry",
-    "price": 55,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "DÉBARDEUR GET COMFY QUICK DRY               ",
+    "link": "https://shop.circlesportswear.com/products/debardeur-get-comfy-quick-dry",
+    "price": 59,
     "color": "Granite Grey",
-    "characteristics": "Technique - LégerTechnique - Léger",
+    "characteristics": "TECHNIQUE - LÉGER",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_get_comfy_quick_dry_granite_grey_1.jpg?v=1666156510&width=533",
-    "date_scrap": "2023-03-13T00:09:28.296Z"
+    "date_scrap": "2023-03-30T12:15:39.650Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Débardeur de sport Free Your Mind                              Débardeur de sport Free Your Mind",
-    "price": 55,
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "DÉBARDEUR DE SPORT FREE YOUR MIND               ",
+    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind",
+    "price": 59,
     "color": "Moss",
-    "characteristics": "Léger - RespirantLéger - Respirant",
+    "characteristics": "LÉGER - RESPIRANT",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_moss_1_8ef82d45-4065-4e98-85b6-491487e75948.jpg?v=1668675145&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "date_scrap": "2023-03-30T12:15:39.650Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Débardeur de sport Free Your Mind Quick Dry                              Débardeur de sport Free Your Mind Quick Dry",
-    "price": 55,
-    "color": "Granite Grey",
-    "characteristics": "Technique - ConfortableTechnique - Confortable",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_quick_dry_granite_grey_1.jpg?v=1668675342&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
-  },
-  {
-    "brand": "circle_sportswear",
-    "name": "Haut à manches longues Homme Flow                              Haut à manches longues Homme Flow",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HAUT À MANCHES LONGUES HOMME FLOW               ",
+    "link": "https://shop.circlesportswear.com/products/haut-a-manches-longues-homme-flow",
     "price": 145,
     "color": "Navy",
-    "characteristics": "Thermorégulant - RéfléchissantThermorégulant - Réfléchissant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_homme_navy_1.jpg?v=1676463000&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "characteristics": "THERMORÉGULANT - RÉFLÉCHISSANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_homme_navy_1_57fd6f82-5075-480e-b6a5-c054703aae17.jpg?v=1679990909&width=533",
+    "date_scrap": "2023-03-30T12:15:39.650Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Gourde Sunny                              Gourde Sunny",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "DÉBARDEUR DE SPORT FREE YOUR MIND QUICK DRY               ",
+    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind-quick-dry",
+    "price": 59,
+    "color": "Granite Grey",
+    "characteristics": "TECHNIQUE - CONFORTABLE",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_quick_dry_granite_grey_1.jpg?v=1668675342&width=533",
+    "date_scrap": "2023-03-30T12:15:39.651Z"
+  },
+  {
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "GOURDE SUNNY               ",
+    "link": "https://shop.circlesportswear.com/products/gourde-en-aluminium-sunny",
     "price": 22,
     "characteristics": "",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourde_sunny_1.jpg?v=1654606544&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "date_scrap": "2023-03-30T12:15:39.651Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Short de Sport Swell                              Short de Sport Swell",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "SHORT DE SPORT SWELL               ",
+    "link": "https://shop.circlesportswear.com/products/short-de-sport-swell",
     "price": 119,
     "color": "Navy",
-    "characteristics": "Légèreté - DéperlantLégèreté - Déperlant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_swell_navy_1.jpg?v=1676389157&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "characteristics": "LÉGÈRETÉ - DÉPERLANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_swell_navy_1_d8eddbb0-bbf4-4a6c-8416-709488fbfd60.jpg?v=1679988972&width=533",
+    "date_scrap": "2023-03-30T12:15:39.651Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Haut à manches longues Femme Flow                              Haut à manches longues Femme Flow",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "HAUT À MANCHES LONGUES FEMME FLOW               ",
+    "link": "https://shop.circlesportswear.com/products/haut-a-manches-longues-femme-flow",
     "price": 145,
     "color": "Navy",
-    "characteristics": "Thermorégulant - RéfléchissantThermorégulant - Réfléchissant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_femme_navy_1.jpg?v=1676527028&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "characteristics": "THERMORÉGULANT - RÉFLÉCHISSANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_femme_navy_1_1c2ce948-e7c7-47c9-a6bc-5b746883939d.jpg?v=1679991039&width=533",
+    "date_scrap": "2023-03-30T12:15:39.651Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Legging de Running Femme Lightning                              Legging de Running Femme Lightning",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING DE RUNNING FEMME LIGHTNING               ",
+    "link": "https://shop.circlesportswear.com/products/legging-de-running-femme-lightning",
     "price": 125,
     "color": "Onyx Black",
-    "characteristics": "Gainant - RéfléchissantGainant - Réfléchissant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_femme_onyx_black_1.jpg?v=1676389205&width=533",
-    "date_scrap": "2023-03-13T00:09:28.297Z"
+    "characteristics": "GAINANT - RÉFLÉCHISSANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_femme_onyx_black_1_56c3ddef-afb1-42a8-9552-39c097dd5507.jpg?v=1679991155&width=533",
+    "date_scrap": "2023-03-30T12:15:39.651Z"
   },
   {
-    "brand": "circle_sportswear",
-    "name": "Legging de Running Homme Lightning                              Legging de Running Homme Lightning",
+    "brand": "CIRCLE_SPORTSWEAR",
+    "name": "LEGGING DE RUNNING HOMME LIGHTNING               ",
+    "link": "https://shop.circlesportswear.com/products/legging-de-running-homme-lightning",
     "price": 125,
     "color": "Onyx Black",
-    "characteristics": "Gainant - RéfléchissantGainant - Réfléchissant",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_homme_onyx_black_1.jpg?v=1676389110&width=533",
-    "date_scrap": "2023-03-13T00:09:28.298Z"
+    "characteristics": "GAINANT - RÉFLÉCHISSANT",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_homme_onyx_black_1_4c6990f2-32ed-4495-a5fd-2a6fca414e33.jpg?v=1679989038&width=533",
+    "date_scrap": "2023-03-30T12:15:39.651Z"
   },
   {
-    "brand": "circle_sportswear",
+    "brand": "CIRCLE_SPORTSWEAR",
     "name": "",
+    "link": "https://shop.circlesportswear.comundefined",
     "price": null,
     "characteristics": "",
-    "date_scrap": "2023-03-13T00:09:28.298Z"
+    "date_scrap": "2023-03-30T12:15:39.652Z"
   },
   {
-    "brand": "circle_sportswear",
+    "brand": "CIRCLE_SPORTSWEAR",
     "name": "",
+    "link": "https://shop.circlesportswear.comundefined",
     "price": null,
     "characteristics": "",
-    "date_scrap": "2023-03-13T00:09:28.298Z"
+    "date_scrap": "2023-03-30T12:15:39.652Z"
   },
   {
-    "brand": "circle_sportswear",
+    "brand": "CIRCLE_SPORTSWEAR",
     "name": "",
+    "link": "https://shop.circlesportswear.comundefined",
     "price": null,
     "characteristics": "",
-    "date_scrap": "2023-03-13T00:09:28.298Z"
+    "date_scrap": "2023-03-30T12:15:39.652Z"
   }
 ]

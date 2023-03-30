@@ -12,12 +12,14 @@ const parse = data => {
 
   return $('.productList-container .productList')
     .map((i, element) => {
-      const brand="dedicated";
+      const brand="DEDICATED";
       const name = $(element)
         .find('.productList-title')
         .text()
         .trim()
-        .replace(/\s/g, ' ');
+        .replace(/\s/g, ' ')
+        .toUpperCase();
+      const link = "https://www.dedicatedbrand.com"+$(element).find('.productList-link').attr('href');
       const image = $(element)
         .find('.productList-image')
         .find('img')
@@ -29,7 +31,7 @@ const parse = data => {
           .text());
       const color=name.substring(name.lastIndexOf(" ")+1, name.length);
       var date_scrap=new Date();//.toISOString().slice(0,10);
-      return {brand, name, price, color, image, date_scrap};
+      return {brand, name, link, price, color, image, date_scrap};
     })
     .get();
 };

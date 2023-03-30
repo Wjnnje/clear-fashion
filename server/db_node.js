@@ -16,7 +16,7 @@ async function createDataBase()
     
     client.close();
 }
-//createDataBase();
+createDataBase();
 
 async function FilterByBrand(brand="dedicated"){
     const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});

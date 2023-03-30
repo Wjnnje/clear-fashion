@@ -12,36 +12,38 @@ const parse = data => {
 
   return $('.grid__item')
     .map((i, element) => {
-      const brand="circle_sportswear";
-      const name = $(element)
+      const brand="CIRCLE_SPORTSWEAR";
+      var name = $(element)
         .find('.full-unstyled-link')
         .text()
         .trim()
         .replace(/\s/g, ' ');
-        
+      name=name.substring(0, Math.floor(name.length/2)).toUpperCase();
+      const link="https://shop.circlesportswear.com"+$(element).find('.full-unstyled-link').attr('href');  
       const price = parseInt(
         $(element)
           .find('.money')
           .text()
           .replace("€","")
       );
-      const characteristics = $(element)
+      var characteristics = $(element)
         .find('.card__characteristic')
         .text()
         .trim()
         .replace(/\s/g, ' ');
+      characteristics=characteristics.substring(0, Math.floor(characteristics.length/2)).toUpperCase();
       const image=$(element)
         .find('.media')
         .find('img')
         .eq(0)
         .attr('src');
-      const color=$(element)
+      var color=$(element)
       .find('.color-variant')
       .eq(0)
       .attr('data-color');
-
+      
       var date_scrap=new Date();//.toISOString().slice(0,10);
-      return {brand, name, price, color, characteristics, image, date_scrap};
+      return {brand, name, link, price, color, characteristics, image, date_scrap};
     })
     .get();
 };
