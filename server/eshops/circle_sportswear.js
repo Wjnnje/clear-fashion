@@ -43,7 +43,9 @@ const parse = data => {
       .attr('data-color');
       
       var date_scrap=new Date();//.toISOString().slice(0,10);
-      return {brand, name, link, price, color, characteristics, image, date_scrap};
+
+      var favorite=false;
+      return {brand, name, link, price, color, characteristics, image, date_scrap, favorite};
     })
     .get();
 };

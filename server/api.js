@@ -53,11 +53,10 @@ app.get('/products/search', async (request, response) => {
   let color = request.query.color|| undefined;
   let maxPrice = parseFloat(request.query.price) || undefined;
   let partOfName = request.query.name || undefined;
+  //let recent = request.query.recent || undefined;
+
   //let sortedByPrice = request.query.sortedByPrice || false;
   //let sortedByDate = request.query.sortedByDate || false;
-  let recent2weeks = request.query.recent2weeks || false;
-  //var products = await FetchProducts(limit, brand, maxPrice, partOfName, sortedByPrice, sortedByDate, recent2weeks);
-  //response.send(products);
 
   //var result_query=[];
   var query={};
@@ -66,7 +65,7 @@ app.get('/products/search', async (request, response) => {
   if (maxPrice!==undefined) query.price={$lte:maxPrice};
   if (partOfName!==undefined) query.name={$regex:partOfName.toUpperCase()};
   //if (partOfName!==undefined) query.name={ $or: [ {name:{$regex:partOfName}}, {name:{$regex:partOfName.toUpperCase()}}, {name:{$regex:partOfName.toLowerCase()}} ] };
-  if (recent2weeks) query.date_scrapped={$lte:new Date(Date.now()-1000*60*60*24*1000)};
+  //if (recent!==undefined) query.date_scrap={$gte:{$dateSubtract:{startDate:ISODate(), unit:"week", amount:recent}}};
 
   let result_query=await collection
   .find(query)

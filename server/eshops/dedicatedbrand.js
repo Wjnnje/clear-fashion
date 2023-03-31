@@ -31,7 +31,9 @@ const parse = data => {
           .text());
       const color=name.substring(name.lastIndexOf(" ")+1, name.length);
       var date_scrap=new Date();//.toISOString().slice(0,10);
-      return {brand, name, link, price, color, image, date_scrap};
+
+      var favorite=false;
+      return {brand, name, link, price, color, image, date_scrap, favorite};
     })
     .get();
 };
