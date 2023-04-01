@@ -102,6 +102,9 @@ const fetchAll = async (page = 1, size = 12) => {
       const response = await fetch(
         `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
       );
+      /*const response = await fetch(
+        'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+      );*/
       const body = await response.json();
   
       if (body.success !== true) {
