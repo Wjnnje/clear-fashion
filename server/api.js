@@ -23,6 +23,7 @@ app.use(helmet());
 
 app.options('*', cors());
 
+
 app.get('/', async (request, response) => {
   response.send({'ack': true});
 });
@@ -52,7 +53,6 @@ app.get('/products/search', async (request, response) => {
   if (maxPrice!==undefined) query.price={$lte:maxPrice};
   if (partOfName!==undefined) query.name={$regex:partOfName.toUpperCase()};
   if (favorite!==undefined) query.favorite=true;
-  //if (partOfName!==undefined) query.name={ $or: [ {name:{$regex:partOfName}}, {name:{$regex:partOfName.toUpperCase()}}, {name:{$regex:partOfName.toLowerCase()}} ] };
   //if (recent!==undefined) query.date_scrap={$gte:{$dateSubtract:{startDate:ISODate(), unit:"week", amount:recent}}};
 
   let result_query=await collection

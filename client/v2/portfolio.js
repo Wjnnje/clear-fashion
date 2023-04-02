@@ -87,7 +87,7 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
       `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
     );*/
     const response = await fetch(
-      'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+      'http://localhost:8092?page=${page}&size=${size}'
       + (price !== null ? `&price=${price}` : "")
       + (brand !== null ? `&brand=${brand}` : "")
       + (name !== null ? `&name=${name}` : "")
