@@ -1,8 +1,6 @@
 {
   "version": 2,
   "builds": [{"src": "*.js", "use": "@now/node"}],
-  "routes": [{"src": "/(.*)", "dest": "api.js"}],
-  "functions": {
-    "api.js":{"timeout": 30}
-  }
+  "routes": [{"src": "/(.*)", "dest": "api.js"}]
+ 
 }
