@@ -1,3 +1,7 @@
-body {
+body:before {
     background-image: url("https://images.squarespace-cdn.com/content/v1/547a3834e4b053a861c4874e/49520e62-d1ee-4978-9055-167e5fa48f91/Sustainably+Chic+%7C+Sustainable+Fashion+Guide+%7C+What+is+Sustainable+Fashion+%7C+Ultimate+Guide+for+Beginners.jpg?format=1000w");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
   }
