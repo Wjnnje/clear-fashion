@@ -75,7 +75,7 @@ const setCurrentProducts = ({result, meta}) => {
  * Fetch products from api
  * @param  {Number}  [page=1] - current page to fetch
  * @param  {Number}  [size=12] - size of the page
- * @param  {Number}  [limit=12]
+ * @param  {Number}  [limit=12] - limit=size
  * 
  * @param  {Number}  [price=null]
  * @param  {Object}  [brand=null]
