@@ -180,10 +180,7 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
 };
 
 
-/**
- * Render list of products
- * @param  {Array} products
- */
+
 const renderProducts = products => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
