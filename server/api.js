@@ -53,6 +53,7 @@ app.get('/products/search', async (request, response) => {
   let color = request.query.color|| undefined;
   let maxPrice = parseFloat(request.query.price) || undefined;
   let partOfName = request.query.name || undefined;
+  let favorite=request.query.favorite || undefined;
   //let recent = request.query.recent || undefined;
 
   //let sortedByPrice = request.query.sortedByPrice || false;
@@ -64,6 +65,7 @@ app.get('/products/search', async (request, response) => {
   if (color!==undefined) query.color=color.toUpperCase();
   if (maxPrice!==undefined) query.price={$lte:maxPrice};
   if (partOfName!==undefined) query.name={$regex:partOfName.toUpperCase()};
+  if (favorite!==undefined) query.favorite=true;
   //if (partOfName!==undefined) query.name={ $or: [ {name:{$regex:partOfName}}, {name:{$regex:partOfName.toUpperCase()}}, {name:{$regex:partOfName.toLowerCase()}} ] };
   //if (recent!==undefined) query.date_scrap={$gte:{$dateSubtract:{startDate:ISODate(), unit:"week", amount:recent}}};
 
