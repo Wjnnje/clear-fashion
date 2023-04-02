@@ -1,17 +1,16 @@
-/* Global styles */
-* {
-    box-sizing: border-box;
+/* Set the background image */
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/547a3834e4b053a861c4874e/49520e62-d1ee-4978-9055-167e5fa48f91/Sustainably+Chic+%7C+Sustainable+Fashion+Guide+%7C+What+is+Sustainable+Fashion+%7C+Ultimate+Guide+for+Beginners.jpg?format=1000w");
+    background-size: cover;
+    background-position: center center;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-  }
-  
+  /* Add a semi-transparent overlay to the background image */
   .pageContent {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
     margin: 0 auto;
-    max-width: 960px;
-    padding: 0 20px;
+    max-width: 800px;
   }
   
   h1 {
@@ -53,7 +52,7 @@
   }
   
   button {
-    background-color: #00c4cc;
+    background-color: #cc77008b;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -62,7 +61,7 @@
   }
   
   button:hover {
-    background-color: #008c91;
+    background-color: #cc77008b;
   }
   
   label {
@@ -135,4 +134,3 @@
     font-size: 14px;
     font-style: italic;
   }
-  
