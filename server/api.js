@@ -27,20 +27,6 @@ app.get('/', async (request, response) => {
   response.send({'ack': true});
 });
 
-app.get('/product/:id', async (request, response) => {
-  
-  try{
-  const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
-  const db =  client.db(MONGODB_DB_NAME);
-  const collection = db.collection('products');
-
-  let id_product=request.params.id;
-  let product=await collection.findOne({_id:new ObjectId(id_product)})
-  response.send({result:product});
-  } catch(e){response.send({error : "invalid id !"});}
-  //client.close();
-});
-
 app.get('/products/search', async (request, response) => {
 
   const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
@@ -83,6 +69,21 @@ app.get('/products/search', async (request, response) => {
 
   } catch(e){response.send({error : "query not valid !"});  }
 });
+
+app.get('/product/:id', async (request, response) => {
+  
+  try{
+  const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
+  const db =  client.db(MONGODB_DB_NAME);
+  const collection = db.collection('products');
+
+  let id_product=request.params.id;
+  let product=await collection.findOne({_id:new ObjectId(id_product)})
+  response.send({result:product});
+  } catch(e){response.send({error : "invalid id !"});}
+  //client.close();
+});
+
 
 app.listen(PORT);
 
