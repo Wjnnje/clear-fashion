@@ -109,8 +109,8 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
     let result=body.data.result;
     let meta={
       currentPage:page,
-      pageCount: Math.ceil(result.length/limit),
-      pageSize: limit,
+      pageCount: Math.ceil(result.length/size),
+      pageSize: size,
       count: result.length
     };
 
@@ -154,10 +154,10 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
     //p-values
     let brands_price=Object.create(result);
     brands_price.sort((a,b)=>{return a.price-b.price;});
-    console.log(brands_price);
+    //console.log(brands_price);
   
     let placep50=Math.ceil(0.5*brands_price.length)-1;
-    console.log(placep50);
+    //console.log(placep50);
     let p50=brands_price[placep50];
     spanp50.innerHTML = p50.price;
 
@@ -169,7 +169,6 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
     let placep95=Math.ceil(0.95*brands_price.length)-1;
     let p95=brands_price[placep95];
     spanp95.innerHTML = p95.price;
-    console.log(allProducts);
 
 
     return {result, meta};
@@ -355,7 +354,7 @@ selectSort.addEventListener('change', async(event)=>{
     setCurrentProducts(products);
     render(currentProducts,currentPagination);
   }
-})
+});
 
 document.addEventListener('DOMContentLoaded', async (event) => {
   const products = await fetchProducts(currentPagination.currentPage, parseInt(event.target.value), price, brand, name_, color, favorite, sortedBy, reasonablePrice);
