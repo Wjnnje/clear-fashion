@@ -82,7 +82,7 @@ const setCurrentProducts = ({result, meta}) => {
  * @param  {Boolean} [favorite=false]
  * @return {Object}
  */
-const fetchProducts = async (page = 1, size = 12, limit=12, price=null, brand=null, name=null, color=null, favorite=false, sortedBy='price-asc') => {
+const fetchProducts = async (page = 1, size = 12, limit=12, price=null, brand=null, name=null, color=null, favorite=false, sortedBy='price-asc', reasonable=false) => {
   try {
     /*const response = await fetch(
       `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
@@ -95,6 +95,7 @@ const fetchProducts = async (page = 1, size = 12, limit=12, price=null, brand=nu
       + (color !== null ? `&color=${color}` : "")
       + (favorite !== false ? `&favorite=true` : "")
     );
+    
     let body = await response.json();
 
     if (body.success !== true) {

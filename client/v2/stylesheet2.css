@@ -1,0 +1,138 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .pageContent {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Options section */
+  #options {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  #show {
+    display: flex;
+    align-items: center;
+  }
+  
+  #page {
+    display: flex;
+    align-items: center;
+  }
+  
+  #filters {
+    display: flex;
+    align-items: center;
+  }
+  
+  #brand {
+    margin-left: 20px;
+  }
+  
+  #sort {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #00c4cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    background-color: #008c91;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  /* Indicators section */
+  #indicators {
+    margin: 20px 0;
+  }
+  
+  #indicators h2 {
+    margin-bottom: 10px;
+  }
+  
+  #indicators div {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #indicators span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  /* Products section */
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    margin: 20px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product .price {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .product .brand {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
