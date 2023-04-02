@@ -15,7 +15,6 @@
           <option value="12">12</option>
           <option value="24">24</option>
           <option value="48">48</option>
-          <option value="All">222</option>
         </select>
       </div>
       <div id="page">
@@ -23,22 +22,22 @@
         <select name="page" id="page-select"> </select>
       </div>
       <div id="filters">
-        <div><button>By reasonable price</button></div>
-        <div><button>By recently released</button></div>       
+        <div><button id="reasPrice">Reasonable price</button></div>
+        <div><button id="recentRelease">Recently released</button></div>       
         <div id="brand">
-          <label for="brand-select">By brands:</label>
+          <label for="brand-select">Brands:</label>
           <select name="brand" id="brand-select">
             <option value=""></option>
           </select>
         </div>
       </div>
       <div id="sort">
-        <label for="sort-select">Sort:</label>
+        <label for="sort-select">Sort by:</label>
         <select name="sort" id="sort-select">
-          <option value="price-asc">Cheaper</option>
-          <option value="price-desc">Expensive</option>
-          <option value="date-asc">Recently released</option>
-          <option value="date-desc">Anciently released</option>
+          <option value="price-asc">Ascending price</option>
+          <option value="price-desc">Descending price</option>
+          <option value="date-asc">Ascending date</option>
+          <option value="date-desc">Descending date</option>
         </select>
       </div>
     </section>
