@@ -85,13 +85,13 @@ const setCurrentProducts = ({result, meta}) => {
  * @param  {Boolean} [favorite=false]
  * @return {Object}
  */
-const fetchProducts = async (page = 1, size = 12, limit=12, price=null, brand=null, name=null, color=null, favorite=false, sortedBy='price-asc', reasonablePrice=false) => {
+const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=null, color=null, favorite=false, sortedBy='price-asc', reasonablePrice=false) => {
   try {
     /*const response = await fetch(
       `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
     );*/
     const response = await fetch(
-      `https://clear-fashion-ew7a.vercel.app/products/search?limit=${limit}`
+      `https://clear-fashion-ew7a.vercel.app/products/search?limit=${size}`
       + (price !== null ? `&price=${price}` : "")
       + (brand !== null ? `&brand=${brand}` : "")
       + (name !== null ? `&name=${name}` : "")
