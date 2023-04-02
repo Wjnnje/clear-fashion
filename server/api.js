@@ -34,8 +34,8 @@ app.get('/product/:id', async (request, response) => {
   const db =  client.db(MONGODB_DB_NAME);
   const collection = db.collection('products');
 
-  var id_product=request.params.id;
-  var product=await collection.findOne({_id:new ObjectId(id_product)})
+  let id_product=request.params.id;
+  let product=await collection.findOne({_id:new ObjectId(id_product)})
   response.send({result:product});
   } catch(e){response.send({error : "invalid id !"});}
   //client.close();
@@ -58,8 +58,8 @@ app.get('/products/search', async (request, response) => {
   //let sortedByPrice = request.query.sortedByPrice || false;
   //let sortedByDate = request.query.sortedByDate || false;
 
-  //var result_query=[];
-  var query={};
+  //let result_query=[];
+  let query={};
   if (brand!==undefined) query.brand=brand.toUpperCase();
   if (color!==undefined) query.color=color.toUpperCase();
   if (maxPrice!==undefined) query.price={$lte:maxPrice};

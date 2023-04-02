@@ -36,8 +36,8 @@ const parse = data => {
       const image=$(element)
         .find('.w-100')
         .attr('data-src');
-      var date_scrap=new Date();//.toISOString().slice(0,10);
-      var favorite=false;
+      let date_scrap=new Date();//.toISOString().slice(0,10);
+      let favorite=false;
       return {brand, name, link, price, color, image, date_scrap, favorite};
     })
     .get();

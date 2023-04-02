@@ -13,7 +13,7 @@ const parse = data => {
   return $('.grid__item')
     .map((i, element) => {
       const brand="CIRCLE_SPORTSWEAR";
-      var name = $(element)
+      let name = $(element)
         .find('.full-unstyled-link')
         .text()
         .trim()
@@ -26,7 +26,7 @@ const parse = data => {
           .text()
           .replace("€","")
       );
-      var characteristics = $(element)
+      let characteristics = $(element)
         .find('.card__characteristic')
         .text()
         .trim()
@@ -37,14 +37,14 @@ const parse = data => {
         .find('img')
         .eq(0)
         .attr('src');
-      var color=$(element)
+      let color=$(element)
       .find('.color-variant')
       .eq(0)
       .attr('data-color');
       
-      var date_scrap=new Date();//.toISOString().slice(0,10);
+      let date_scrap=new Date();//.toISOString().slice(0,10);
 
-      var favorite=false;
+      let favorite=false;
       return {brand, name, link, price, color, characteristics, image, date_scrap, favorite};
     })
     .get();

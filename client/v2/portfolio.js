@@ -24,15 +24,19 @@ let currentPagination = {};
 // instantiate the selectors
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
+
 const sectionProducts = document.querySelector('#products');
 const spanNbProducts = document.querySelector('#nbProducts');
 const spanNewProducts = document.querySelector('#nbNew');
 const spanNbBrands = document.querySelector('#nbBrands');
+
 const spanp50 = document.querySelector('#p50');
 const spanp90 = document.querySelector('#p90');
 const spanp95 = document.querySelector('#p95');
+
 const lastReleased = document.querySelector('#lastRelease');
 
+const favs=document.querySelector('#select-Fav')
 
 
 // Variables for Indicators
@@ -72,12 +76,12 @@ const setCurrentProducts = ({result, meta}) => {
  */
 const fetchProducts = async (page = 1, size = 12) => {
   try {
-    /*const response = await fetch(
-      `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
-    );*/
     const response = await fetch(
-      'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+      `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
     );
+    /*const response = await fetch(
+      'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+    );*/
     const body = await response.json();
 
     if (body.success !== true) {
@@ -102,12 +106,12 @@ const fetchAll = async (page = 1, size = 12) => {
   while(!finished)
   {
     try {
-      /*const response = await fetch(
-        `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
-      );*/
       const response = await fetch(
-        'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+        `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
       );
+      /*const response = await fetch(
+        'https://clear-fashion-ew7a.vercel.app?page=${page}&size=${size}'
+      );*/
       const body = await response.json();
   
       if (body.success !== true) {
@@ -313,19 +317,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   render(currentProducts, currentPagination);
 });
 
-/*selectShow.addEventListener('change', async (event) => {
-  const products = await fetchProducts(currentPagination.currentPage, parseInt(event.target.value));
 
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-});
-
-document.addEventListener('DOMContentLoaded', async () => {
-  const products = await fetchProducts();
-
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-});*/
 
 
 
