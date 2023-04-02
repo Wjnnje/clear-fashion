@@ -36,7 +36,7 @@ const spanp95 = document.querySelector('#p95');
 
 const lastReleased = document.querySelector('#lastRelease');
 
-const favs=document.querySelector('#select-Fav')
+const favs=document.querySelector('#favorites')
 
 
 // Variables for Indicators
@@ -87,7 +87,7 @@ const fetchProducts = async (page = 1, size = 12, price=null, brand=null, name=n
       `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
     );*/
     const response = await fetch(
-      'http://localhost:8092/products/search?page=${page}&size=${size}'
+      `https://clear-fashion-ew7a.vercel.app/products/search?limit=${limit}`
       + (price !== null ? `&price=${price}` : "")
       + (brand !== null ? `&brand=${brand}` : "")
       + (name !== null ? `&name=${name}` : "")
@@ -254,10 +254,11 @@ const render = (products, pagination) => {
  * Select the number of products to display
  */
 selectShow.addEventListener('change', async (event) => {
-  const products = await fetchProducts(currentPagination.currentPage, parseInt(event.target.value));
+  /*const products = await fetchProducts(currentPagination.currentPage, parseInt(event.target.value));
 
   setCurrentProducts(products);
-  render(currentProducts, currentPagination);
+  render(currentProducts, currentPagination);*/
+  allFu
 });
 
 document.addEventListener('DOMContentLoaded', async () => {
